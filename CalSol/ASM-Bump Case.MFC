@@ -1,0 +1,16 @@
+[StartTime]
+ASM-Bump Case.MFC=24s
+[SolverState]
+ASM-Bump Case.MFC=2
+[MainFrame]
+ASM-Bump Case.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPJLCAAAAALLBAAAAABCEAAAAAOICAAAAA
+[ShowMin]
+ASM-Bump Case.MFC=No
+[SolverType]
+ASM-Bump Case.MFC=Linear Analysis
+[StudyType]
+ASM-Bump Case.MFC=0
+[StudyName]
+ASM-Bump Case.MFC=Bump Case
+[Solver]
+ASM-Bump Case.MFC=Iterative
