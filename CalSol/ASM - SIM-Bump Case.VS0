@@ -1,0 +1,224 @@
+ IPKG_CODE         500
+ GEOIDMAP_N = .TRUE.
+ SCALEFAC   1.00000000000000     
+ RPRM.FLAG RPRM.READNORMAL SPRM.FLAG T T F
+ AUTO_CONTACT  F
+ AUTO_CONTACT2  F
+ GEO_CORR INIT_STB F F
+ NREP_MC F
+ INIT_STB2 F
+ TOTVOL,TOTSUR  1.2939569E-03  0.4677642    
+ IUSEFFE0,RSIZE,maxnod           1   8.000000          428586
+ noid =            0
+ init smain           15128300828
+ SHELL_WING  F
+ S2S_MT_INFO:I,INFO,RINFO2 =            1           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =            2           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =            3           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =            4           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =            5           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =            6           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =            7           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =            8           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =            9           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =           10           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =           11           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =           12           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =           13           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =           14           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =           15           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =           16           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =           17           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =           18           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ S2S_MT_INFO:I,INFO,RINFO2 =           19           1  6.2020066E-05
+ Non-facing  0.0000000E+00
+ I GEOID GTYPE           1           1           3
+ X1 X2  0.786735892295837      -0.116016924381256       4.017535597085953E-003
+ -0.213264137506485      -0.116016924381256       4.017535597085953E-003
+ Final NREP_MT NEW_MT NEW2_MT NEW3_MT NEW32_MT  F T T T F
+ New_MT: NUMNODS_NMT MAXNODS_NMT NSRC_MAX       15498      375051           3
+ New_MT: I_RERUN9 I_NMTSWITCH org. NNODT_MAX0            0           0
+          80
+ New_MT: NNODS_MAX0 NNODT_MAX0            6          80
+ SAREA TAREA STAREA_RATIO NTGT_MAX NTGT_MAX2  2.449753612760619E-006
+  1.973580065118832E-005   3.10318498861245               10         250
+ B New_MT: ISIZE            3770505625
+ ISIZE3              27989388
+ A New_MT: ISIZE            3742516237
+ Final_2 NEW3_MT F
+ ISIZE IREQM            3742516237              91055916
+ NMTBLKMAX_CK           0
+ NMT_BLK NUM_BLK       10332           1
+ E_ADDED,SURVOL,ISOLR   10.75372       247.2411               1
+ Before Check ISPARSE            2
+ ITOSCA NLCASE ISPARSE CONTACT INTEL_NLCASE            0           1           2
+ F           0
+ SMA CASI_DIRECT =            0 F
+ ITOTSZ    59643428
+ ndofpn           3
+ MPROP_PLAS: imat,sigyld,etan,rkin =            1   275000000.000000     
+  0.000000000000000E+000  0.000000000000000E+000
+ char_Lnth,dist_max,dx2,dy2,dz2 =   0.186307949711982     
+  0.223294793864294       3.263031329989616E-002  0.129725434575495     
+  0.129681249238404     
+ NMT        10332
+ NTHREADS NCHUNK           16         100
+ NTGT_MAX3           10
+ Node-centered: NNDMX_MT NSZS_NMT NSZT_NMT           93       77142      116427
+ Node-centered: NNODS_MAX NNODT_MAX            6          25
+ NGBDSP RGBDSP         2903  0.280971738288811     
+ SETFLE: emax,aesize =    69000003583.9999       3.080587051210378E-003
+ IPCG_FUNC           1
+ RNEQ NFREQ =    1273650.00000000                1
+ ISEULR           1
+ PCGLSS_PF: N1MX NSIZEMX          120        7260
+ io_cut,iprecond =            1           1
+ RATIO_FR =    10.80661    
+ Before PCGLSS_F: ifac_prog0,ifac_prog =            0           0
+ NEL_RIGID MAXELM+NSET R_RIGID        25830      266026  6.061151219817438E-002
+ SPRINGK_MAX RATIO_K   0.000000000000000E+000  0.000000000000000E+000
+ R_SMALL_ANGLE,R_GAP,R_NMT,R_NSET,EMX/EMIN I_PCGSWITCH = 
+  3.921797198954188E-003  1.000000000000000E+020  6.061151219817438E-002
+  0.000000000000000E+000   1.00000000000000                1
+ S2S_MORTAR_TIE: AVG_ASPECT_RATIO FACTOR_MT   0.000000000000000E+000
+   100.000000000000     
+ NP,TMASS_PT(L)           1   1.952903    
+ L,AMCG_PT           1  0.8001940     -0.1160171      4.0175780E-03
+ NP,TMASS_PT(L)           2   1.442914    
+ L,AMCG_PT           2  0.8132265     -0.1158971      4.0294183E-03
+ NP,TMASS_PT(L)           3  0.1007982    
+ L,AMCG_PT           3  0.7826161     -0.1160167      4.0175901E-03
+ totmass   3.496615    
+ Total constraints:        12857
+ IDIFF_ANY           0
+ MOVE_REF           0
+ MXPART           3
+ NUMDSP0        4036
+ Modal Stiffness values:
+   0.12E+16   0.12E+16   0.12E+16   0.13E+14   0.13E+14   0.13E+14
+   0.10E+14   0.10E+14   0.10E+14   0.25E+13   0.13E+13   0.13E+13
+   0.32E+12   0.17E+12   0.16E+12   0.19E+11   0.97E+10   0.91E+10
+ V E C T O R S:
+     
+ VECTOR:           1 ,  Modal Stiffness:  1.234429307914136E+015
+ PART       UX         UY           UZ          RX          RY         RZ    V-T
+ Free mode threshold:     0.0000000E+00
+    1R   0.1292855  -0.6093719   0.7821531   0.0001059   0.0011158   0.0008518
+    2R  -0.0013835   0.0065209  -0.0083699  -0.0000264  -0.0000295  -0.0000186
+    3R  -0.0010910   0.0051424  -0.0066005   0.0000035   0.0000334   0.0000254
+     
+ VECTOR:           2 ,  Modal Stiffness:  1.234429307261872E+015
+ PART       UX         UY           UZ          RX          RY         RZ    V-T
+ Free mode threshold:     0.0000000E+00
+    1R   0.0755956   0.7925363   0.6049659  -0.0001822   0.0008580  -0.0011012
+    2R  -0.0008090  -0.0084810  -0.0064738   0.0000039  -0.0000223   0.0000288
+    3R  -0.0006379  -0.0066881  -0.0051052  -0.0000072   0.0000256  -0.0000327
+     
+ VECTOR:           3 ,  Modal Stiffness:  1.234426860091600E+015
+ PART       UX         UY           UZ          RX          RY         RZ    V-T
+ Free mode threshold:     0.0000000E+00
+    1R  -0.9886278  -0.0190878   0.1485433  -0.0000001   0.0000004  -0.0000005
+    2R   0.0105795   0.0002043  -0.0015896  -0.0000032   0.0000138  -0.0000192
+    3R   0.0083427   0.0001611  -0.0012535  -0.0000001  -0.0000016  -0.0000009
+     
+ VECTOR:           4 ,  Modal Stiffness:   12936982649227.5     
+ PART       UX         UY           UZ          RX          RY         RZ    V-T
+ Free mode threshold:     0.0000000E+00
+    1R   0.0001438  -0.0072207   0.0073747  -0.0032061   0.0092244   0.0090910
+    2R   0.0140597  -0.6988049   0.7137549   0.0026834   0.0022044   0.0021072
+    3R  -0.0005293   0.0290796  -0.0296819   0.0000259   0.0001397   0.0001364
+     
+ VECTOR:           5 ,  Modal Stiffness:   12936845849051.7     
+ PART       UX         UY           UZ          RX          RY         RZ    V-T
+ Free mode threshold:     0.0000000E+00
+    1R  -0.0016776   0.0072607   0.0071417  -0.0002035   0.0092667  -0.0094683
+    2R  -0.1618798   0.7027996   0.6912681  -0.0000405   0.0018080  -0.0018482
+    3R   0.0066735  -0.0292461  -0.0287647  -0.0000326   0.0001281  -0.0001377
+     
+ VECTOR:           6 ,  Modal Stiffness:   12934825461143.4     
+ PART       UX         UY           UZ          RX          RY         RZ    V-T
+ Free mode threshold:     0.0000000E+00
+    1R  -0.0102078  -0.0012995  -0.0010712  -0.0000121   0.0004919  -0.0005003
+    2R  -0.9857951  -0.1254008  -0.1033591   0.0000449  -0.0021358   0.0021716
+    3R   0.0404788   0.0051280   0.0042240   0.0000056  -0.0000588   0.0000176
+     
+ VECTOR:           7 ,  Modal Stiffness:   10239716313553.0     
+ PART       UX         UY           UZ          RX          RY         RZ    V-T
+ Free mode threshold:     0.0000000E+00
+    1R  -0.0000391  -0.0085772  -0.0023484   0.0014672   0.0032507  -0.0118785
+    2R  -0.0000471  -0.0401542  -0.0109778  -0.0000049  -0.0001037   0.0003688
+    3R  -0.0045341  -0.9635279  -0.2638231  -0.0009522   0.0012969  -0.0047205
+     
+ VECTOR:           8 ,  Modal Stiffness:   10239694513087.3     
+ PART       UX         UY           UZ          RX          RY         RZ    V-T
+ Free mode threshold:     0.0000000E+00
+    1R  -0.0005156  -0.0023423   0.0085636  -0.0000511  -0.0119189  -0.0032585
+    2R  -0.0024539  -0.0109617   0.0400795   0.0000956   0.0003628   0.0001021
+    3R  -0.0582975  -0.2631212   0.9619672  -0.0000550  -0.0046597  -0.0012780
+     
+ VECTOR:           9 ,  Modal Stiffness:   10238104175274.6     
+ PART       UX         UY           UZ          RX          RY         RZ    V-T
+ Free mode threshold:     0.0000000E+00
+    1R   0.0088540  -0.0001752   0.0004876   0.0000039   0.0005371   0.0001307
+    2R   0.0408656  -0.0008036   0.0022250   0.0000054   0.0000712  -0.0000729
+    3R   0.9974085  -0.0197589   0.0550440  -0.0000075  -0.0011989  -0.0002939
+     
+ VECTOR:          10 ,  Modal Stiffness:   2528682970732.49     
+ PART       UX         UY           UZ          RX          RY         RZ    V-T
+ Free mode threshold:     0.0000000E+00
+    1R   0.0000000  -0.0001959  -0.0000555  -0.9827773  -0.0001123   0.0001288
+    2R  -0.0000006   0.0023625  -0.0027509   0.1846030   0.0000002  -0.0000194
+    3R   0.0000001  -0.0014804  -0.0003344   0.0074141   0.0000021  -0.0000078
+     
+ VECTOR:          11 ,  Modal Stiffness:   1325593056002.22     
+ PART       UX         UY           UZ          RX          RY         RZ    V-T
+ Free mode threshold:     0.0000000E+00
+    1R  -0.0000647  -0.0011642  -0.0007665  -0.0001797   0.5411006  -0.8218430
+    2R   0.0032088  -0.0097589  -0.0064222   0.0000865  -0.0982311   0.1475518
+    3R  -0.0004680   0.0105761   0.0069634   0.0000140  -0.0040487   0.0061364
+     
+ VECTOR:          12 ,  Modal Stiffness:   1313238966914.01     
+ PART       UX         UY           UZ          RX          RY         RZ    V-T
+ Free mode threshold:     0.0000000E+00
+    1R  -0.0001934   0.0007672  -0.0011645   0.0000192   0.8221014   0.5416503
+    2R   0.0004082   0.0064325  -0.0097573  -0.0000495  -0.1461330  -0.0951843
+    3R  -0.0012268  -0.0069621   0.0105668  -0.0000047  -0.0058485  -0.0038449
+     
+ VECTOR:          13 ,  Modal Stiffness:   324807012412.442     
+ PART       UX         UY           UZ          RX          RY         RZ    V-T
+ Free mode threshold:     0.0000000E+00
+    1R   0.0000000  -0.0000376  -0.0000089  -0.1845207   0.0000074  -0.0000403
+    2R   0.0000002  -0.0015009   0.0014031  -0.9827600  -0.0000024   0.0000773
+    3R   0.0000000  -0.0002264  -0.0000490   0.0114240  -0.0000000   0.0000001
+     
+ VECTOR:          14 ,  Modal Stiffness:   165981050598.025     
+ PART       UX         UY           UZ          RX          RY         RZ    V-T
+ Free mode threshold:     0.0000000E+00
+    1R  -0.0000179  -0.0001853  -0.0001702  -0.0000272   0.1199325  -0.1306097
+    2R  -0.0020443  -0.0038448  -0.0035203  -0.0000470   0.6638978  -0.7263879
+    3R  -0.0001106   0.0014526   0.0013346   0.0000053  -0.0074111   0.0082107
+     
+ VECTOR:          15 ,  Modal Stiffness:   162523400701.783     
+ PART       UX         UY           UZ          RX          RY         RZ    V-T
+ Free mode threshold:     0.0000000E+00
+    1R  -0.0000318   0.0001662  -0.0001826   0.0000145   0.1287317   0.1171469
+    2R  -0.0001567   0.0034893  -0.0038235   0.0000333   0.7267305   0.6644002
+    3R  -0.0001860  -0.0013038   0.0014334  -0.0000030  -0.0076697  -0.0071041

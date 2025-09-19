@@ -1,2 +1,2 @@
-Number of Contacts: 203
-Number of contact data: 24730
+Number of Contacts: 19
+Number of contact data: 4697
